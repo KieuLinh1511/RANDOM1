@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #98c8eb;
+  }
+  
+  #app {
+    /* display: flex; */
+  }
+  
+  #customers {
+    padding: 10px 15px;
+  }
+  
+  #title {
+    border-radius: 10px;
+    padding: 10px 0;
+    background-color: rgb(233 144 195);
+    color: rgb(8, 8, 8);
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+  }
+  #btn_random {
+    text-align: center;
+    padding: 30px;
+  }
+  
+  #result_random {
+    padding: 20px;
+    display: none;
+
+  }
+  
+  .result_random_item {
+    padding: 10px 0;
+    font-size: 18px;
+  }
+  
+  #result_name {
+    font-size: 20px;
+    font-weight: 700;
+    color: red;
+  }
+  
+  #btn_random > button
+   {
+    padding: 10px 25px;
+    background-color: rgb(243, 8, 118);
+    border: none;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
